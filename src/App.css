@@ -1,0 +1,104 @@
+/* App.css */
+
+/* Center the form and give it a clean, modern look */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f7fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  /* Center the form title */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add spacing between form elements */
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add a little gap between checkboxes */
+  label input[type="checkbox"],
+  label input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Add responsive design */
+  /* @media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+   */
+    h1 {
+      font-size: 20px;
+    }
+  
+    label {
+      font-size: 14px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+      font-size: 14px;
+    }
+  
+    input[type="submit"] {
+      font-size: 14px;
+    }
+  
+  /* } */
