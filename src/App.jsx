@@ -35,7 +35,7 @@ const App = () => {
     }
     return (
         <div id='form'>
-            <h1><center>JSPIDERS PAGE</center></h1>
+            <h1><center>JSPIDERS PAGE v1.2</center></h1>
             <form action="" onSubmit={handleSubmit}>
                 <label htmlFor="">USERNAME:</label>
                 <input type="text" name="Uname" value={Uname} id="" onChange={handleChange} />
